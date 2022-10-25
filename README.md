@@ -4,6 +4,9 @@
 * 1. An educational institution has asked me to revisit this Study and the data it contains in order for it to be included on a university curriculum for second-year engineering students.
 * 2. This is project to present as Capstone. Therefore I have to create an external stakeholder for which I will have to solve the problem. In this case a Journal had contacted me to prove the accuracy compliance of data published. The study tried different approaches and it is expected in the present study to reproduce the data but also to design a simple neuronetwork. Ultimately Data reliability is to be constatate through this approach.
 
+## Electrochemical Metrics for Corrosion Resistant Alloys
+A dataset with multiple sections using different measured corrosion resistance metrics. The six sections include data on various metal alloys with measurements of 1) pitting potential, 2) repassivation potential, 3) crevice corrosion potential, 4) pitting temperature, 5) crevice corrosion temperature, and 6) corrosion potential, corrosion current density, passivation current density, and corrosion rate. The experimental data were collected from 81 publications and include Al- and Fe-based alloys, high entropy alloys (HEAs), and NiCrMo alloys.
+
 # ds-modeling-pipeline
 
 Here you find a Skeleton project for building a simple model in a python script or notebook and log the results on MLFlow.
