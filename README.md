@@ -2,14 +2,21 @@
 
 ## Research Questions
 
-*1. Which dataset would give us a ML approach to corrosion prediction, that would be valuable to our risk analysis company Stakeholder.
-*2. 
-
-(Excuses to the original Autor) 
-* 1. An educational institution has asked me to revisit this Study and the data it contains in order for it to be included on a university curriculum for second-year engineering students.
-* 2. This is project to present as Capstone. Therefore I have to create an external stakeholder for which I will have to solve the problem. In this case a Journal had contacted me to prove the accuracy compliance of data published. The study tried different approaches and it is expected in the present study to reproduce the data but also to design a simple neuronetwork. Ultimately Data reliability is to be constatate through this approach.
+* 1. Which dataset would give us a ML approach to corrosion prediction, that would be valuable to our risk analysis company Stakeholder.
+* 2. Which are the most relevant features that influence our target value in the dataset. How the type of ion and enviromental conditions influence pitting corrosion using the curated data given by our stakeholder.
+  
+-------------
+##__Analysis of the first dataset Corrosion informatics__
+### Aim:
+* An educational institution has asked me to revisit this Study and the data it contains in order for it to be included on a university curriculum for second-year engineering students.
+### Insides into the dataset:
+* The data presented was not relevant to make corrosion predition because it only predicted the experiment plot for single observations, therefore this path was dispose of.
+--------------
+## Analysis of the second dataset Corrosion_85_prediction
 
 ## Electrochemical Metrics for Corrosion Resistant Alloys
+## Aim:
+* Corrosion is a major problem on all sort industries, our Risk Analysis Company aims to predict the pitting corrosion and the conditions that influence them.
 A dataset with multiple sections using different measured corrosion resistance metrics. The six sections include data on various metal alloys with measurements of 1) pitting potential, 2) repassivation potential, 3) crevice corrosion potential, 4) pitting temperature, 5) crevice corrosion temperature, and 6) corrosion potential, corrosion current density, passivation current density, and corrosion rate. The experimental data were collected from 81 publications and include Al- and Fe-based alloys, high entropy alloys (HEAs), and NiCrMo alloys.
 
 |[Article Nature](https://www.nature.com/articles/s41597-021-00840-y)-|[Dataset](https://www.nature.com/articles/s41597-021-00840-y)|---|---|
