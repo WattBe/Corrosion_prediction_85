@@ -25,9 +25,14 @@ A dataset with multiple sections using different measured corrosion resistance m
 |---|---|
 
 ### Insides into the dataset:
-The dataset has different sessions. One of them has several target values which make it a richer prediction interest. However there were many missing data and only 53 observations. 
-Repasivation potential has 191 observations and are independent from the pitting potential (800 obs)
-Only one of the sessions: pitting potential has more than 800 observations for ML. However it has a lot of missing values and dirty data. At the moment I am not considering nor thinking in consider Methods and conditions of the method. Due to my though that It should not matter. However some 
+The dataset has different sessions. 
+1. HEA has several target values which make it a richer prediction interest. However there were many missing data and only 53 observations. 
+2. Repasivation potential has 191 observations and are independent from the pitting potential (800 obs).
+3. Pitting Temperature:
+4. Crevise Corrosion:
+5. Other
+6. Pitting potential has more than 800 observations for ML. However it has a lot of missing values and dirty data. At the   moment I am not considering   nor thinking in consider Methods and conditions of the method. Due to my though that It should not matter. However some maybe interesting
+ 
 
 
 
