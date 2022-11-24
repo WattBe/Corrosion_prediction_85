@@ -60,6 +60,8 @@ Use the requirements file in this repo to create a new environment.
 
 ```BASH
 make setup
+ brew install hdf5
+ brew install graphviz
 
 #or
 
@@ -68,7 +70,17 @@ python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements_dev.txt
+
+### NNeworks
+export HDF5_DIR=/opt/homebrew/Cellar/hdf5/1.12.2
+
+pip install -U pip
+pip install --no-binary=h5py h5py
+pip install -r requirements.txt
 ```
+#and 
+you should reinstall the requeriments.txt eventually again
+pip install -r requirements.txt 
 
 The `requirements.txt` file contains the libraries needed for deployment.. of model or dashboard .. thus no jupyter or other libs used during development.
 
